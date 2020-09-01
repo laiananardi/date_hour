@@ -56,6 +56,8 @@ function load() {
     //acrescentar 0 na frente dos minutos menores que 9
     if (min <= 9){
         var minu = `0${min}`
+    }else{
+        var minu = `${min}`
     }
     //mudar a imagem e cor do dia de acordo com a hora
     if (hour >= 0 && hour < 12){
